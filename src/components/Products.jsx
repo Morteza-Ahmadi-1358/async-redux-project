@@ -16,7 +16,7 @@ const Products = () => {
         <div style={{display: 'flex', justifyContent: 'space-around', alignItems: 'stretch', flexWrap: 'wrap'}}>
             {
                 data.products.map(product => {
-                    return <div style={{flexBasis: '30%', border: '1px solid #ff1749', borderRadius: '7px', margin: '5px', padding: '5px', textAlign: 'justify'}}>
+                    return <div className='contentContainer' style={{flexBasis: '30%', border: '1px solid #ff1749', borderRadius: '7px', margin: '5px', padding: '5px', textAlign: 'justify', backgroundColor: '#1a1a1a'}}>
                                 <span style={{display: 'inline-block', color: '#ff1749'}}>ID: </span> {product.id}<hr style={{border: 'none', borderBottom: '1px solid #ff1749'}} />
                                 <span style={{display: 'inline-block', color: '#ff1749'}}>Title: </span> {product.title}<br />
                                 <span style={{display: 'inline-block', color: '#ff1749'}}>Body: </span> {product.body}

@@ -66,3 +66,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .contentContainer{
+    flex-basis: 45% !important;
+    background-color: #1a1a1a;
+  }
+}
+
+@media screen and (max-width: 662px) {
+  .contentContainer{
+    flex-basis: 90% !important;
+    background-color: #1a1a1a;
+  }
+}
